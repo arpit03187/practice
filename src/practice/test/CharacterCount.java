@@ -8,7 +8,7 @@ import java.util.Set;
 public class CharacterCount {
 	
 	public static void main(String[] args) {
-		characterCount("doctor");
+		characterCount("pcmbz");
 	}
 	
 	public static void characterCount(String s) {

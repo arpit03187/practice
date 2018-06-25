@@ -12,7 +12,7 @@ public class Palindrome {
 
 		System.out.println(isValidPalindrome(original));
 		
-		System.out.println(IsPalindrome(original));
+		System.out.println(IsPalindrome(original.replaceAll("[^\\\\w\\\\s]","")));
 
 	}
 

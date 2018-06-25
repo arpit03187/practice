@@ -4,6 +4,7 @@ public class Person {
 	
 	private int id;
 	private String name;
+	private float salary;
 	
 	
 	public int getId() {
@@ -17,6 +18,12 @@ public class Person {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public float getSalary() {
+		return salary;
+	}
+	public void setSalary(Float salary) {
+		this.salary = salary;
 	}
 	
 	
